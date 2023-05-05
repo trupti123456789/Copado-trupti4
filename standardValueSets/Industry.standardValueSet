@@ -166,4 +166,9 @@
         <default>false</default>
         <label>MYINDUSTRY</label>
     </standardValue>
+    <standardValue>
+        <fullName>myindustry2</fullName>
+        <default>false</default>
+        <label>myindustry2</label>
+    </standardValue>
 </StandardValueSet>
