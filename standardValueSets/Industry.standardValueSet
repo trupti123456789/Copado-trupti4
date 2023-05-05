@@ -161,4 +161,9 @@
         <default>false</default>
         <label>Servicios públicos</label>
     </standardValue>
+    <standardValue>
+        <fullName>MYINDUSTRY</fullName>
+        <default>false</default>
+        <label>MYINDUSTRY</label>
+    </standardValue>
 </StandardValueSet>
