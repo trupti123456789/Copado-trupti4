@@ -6258,7 +6258,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Rating</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -14894,6 +14894,10 @@
         <layout>Account-Formato de cuentas</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Account-Formato de cuentas</layout>
+        <recordType>Account.stdPL</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-PLacc1</layout>
         <recordType>Account.AccPL1</recordType>
     </layoutAssignments>
@@ -17423,6 +17427,11 @@
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Account.AccPL1</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.stdPL</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
