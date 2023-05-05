@@ -9,8 +9,16 @@
         <name>GlobalValueSet</name>
     </types>
     <types>
+        <members>Account-Formato de cuentas</members>
+        <name>Layout</name>
+    </types>
+    <types>
         <members>Read Only</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>Account.stdPL</members>
+        <name>RecordType</name>
     </types>
     <version>57.0</version>
 </Package>

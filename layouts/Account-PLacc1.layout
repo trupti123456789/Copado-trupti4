@@ -32,6 +32,10 @@
                 <behavior>Edit</behavior>
                 <field>Accpicklist__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>GlobslVSpicklict__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns/>
         <style>TwoColumnsTopToBottom</style>
