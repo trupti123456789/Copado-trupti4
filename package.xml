@@ -10,10 +10,11 @@
     </types>
     <types>
         <members>Account-Formato de cuentas</members>
+        <members>Account-PLacc1</members>
         <name>Layout</name>
     </types>
     <types>
-        <members>Admin</members>
+        <members>Standard</members>
         <name>Profile</name>
     </types>
     <types>
