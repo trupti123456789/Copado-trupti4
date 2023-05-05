@@ -14874,6 +14874,10 @@
         <layout>Account-Formato de cuentas</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Account-Formato de cuentas</layout>
+        <recordType>Account.stdPL</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Asset-Formato de activos</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -17171,6 +17175,11 @@
         <apexPage>copado__viewOrg</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.stdPL</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
