@@ -238,6 +238,30 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Accpicklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Accpicklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>accpick1</fullName>
+                    <default>false</default>
+                    <label>accpick1</label>
+                </value>
+                <value>
+                    <fullName>accpick2</fullName>
+                    <default>false</default>
+                    <label>accpick2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>AnnualRevenue</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -358,6 +382,22 @@
         </filters>
         <label>New This Week</label>
     </listViews>
+    <recordTypes>
+        <fullName>AccPL1</fullName>
+        <active>true</active>
+        <label>AccPL1</label>
+        <picklistValues>
+            <picklist>Accpicklist__c</picklist>
+            <values>
+                <fullName>accpick1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>accpick2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
