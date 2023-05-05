@@ -14874,6 +14874,10 @@
         <layout>Account-Formato de cuentas</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Account-Formato de cuentas</layout>
+        <recordType>Account.stdPL</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Asset-Formato de activos</layout>
     </layoutAssignments>
     <layoutAssignments>
